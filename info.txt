@@ -1,0 +1,44 @@
+Iv1.c9af51c12c8ba713
+
+e2be6a8c342885b131071e834eb0ff2ad1426627
+
+
+ let repo_data = res.data.map(item => {
+            console.log(item);
+
+        })
+
+
+        repos.innerHTML = `
+        <li class="card">
+        <div class="repo-name-box">
+            <h4 class="repo-name">${item.name</h4>
+        </div>
+        <div class="repo-link-box">
+            <a href="" class="repo-link"><i class="fas fa-link    "></i></a>
+        </div>
+    </li>
+        `
+
+        repos.innerHTML = `<li class="card">
+                <div class="repo-name-box">
+                    <h4 class="repo-name">${item.name}</h4>
+                </div>
+                <div class="repo-link-box">
+                    <a href=${item.html_url} class="repo-link"><i class="fas fa-link    "></i></a>
+                </div>
+            </li>`
+
+
+
+
+            return (
+                repos.innerHTML = `<li class="card">
+                <div class="repo-name-box">
+                    <h4 class="repo-name">${item.name}</h4>
+                </div>
+                <div class="repo-link-box">
+                    <a href=${item.html_url} class="repo-link"><i class="fas fa-link    "></i></a>
+                </div>
+            </li>`
+            )
